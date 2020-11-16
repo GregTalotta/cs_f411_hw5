@@ -10,5 +10,5 @@
 #include <algorithm>
 using Bridge = std::vector<int>;
 
-int build(int w, int e, const std::vector<Bridge> &bridges);
+int build(int height, int width, const std::vector<Bridge> &bridges);
 #endif //#ifndef FILE_BUILD_HPP_INCLUDED
